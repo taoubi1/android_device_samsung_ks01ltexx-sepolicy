@@ -37,3 +37,4 @@ allow system_app color_service:service_manager add;
 
 # allow system_app to interact with smcinvoke daemon
 binder_call(system_app, smcinvoke_daemon)
+binder_call(system_app, storaged)
